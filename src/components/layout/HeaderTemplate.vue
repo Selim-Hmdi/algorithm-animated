@@ -24,7 +24,7 @@
           </ul>
         </li>
         <li class="pure-menu-item">String algorithms</li>
-        <li class="pure-menu-item">About</li>
+        <li class="pure-menu-item"><router-link class="pure-menu-link" to="/about">About</router-link> </li>
       </ul>
     </nav>
   </header>
