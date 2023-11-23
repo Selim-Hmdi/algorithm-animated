@@ -3,15 +3,15 @@ import App from "./App.vue";
 import * as VueRouter from "vue-router";
 import SortingAlgorithmsPage from "./components/view/SortingPages/SortingAlgorithmsPage.vue";
 import AboutPage from "./components/view/AboutPage.vue";
-import HomePage from "./components/view/HomePage.vue";
+import MainViewPage from "./components/view/MainViewPage.vue";
 import SelectionSortPage from "./components/view/SortingPages/SelectionSortPage.vue";
 import "./assets/css/global.css";
 
 const routes = [
-    {path: "/", HomePage},
-    {path: "/sorting-algorithms", SortingAlgorithmsPage},
-    {path: "/sorting-algorithms/selection-sort", SelectionSortPage},
-    {path: "/about", AboutPage}
+    {path: "/", component: MainViewPage},
+    {path: "/sorting-algorithms", component: SortingAlgorithmsPage},
+    {path: "/sorting-algorithms/selection-sort", component: SelectionSortPage},
+    {path: "/about", component: AboutPage}
 ];
 
 const router = new VueRouter.createRouter({

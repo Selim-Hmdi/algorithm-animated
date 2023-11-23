@@ -1,15 +1,23 @@
 <template>
-  <HomePage />
+  <div>
+    <HeaderTemplate></HeaderTemplate>
+    <MainViewPage></MainViewPage>
+    <FooterTemplate></FooterTemplate>
+  </div>
 </template>
 
 <script>
-import HomePage from "./components/view/HomePage.vue";
+import HeaderTemplate from "./components/layout/HeaderTemplate.vue";
+import FooterTemplate from "./components/layout/FooterTemplate.vue";
+import MainViewPage from "./components/view/MainViewPage.vue";
 
 
 export default {
     name: "App",
     components: {
-        HomePage
+        FooterTemplate,
+        HeaderTemplate,
+        MainViewPage,
     }
 };
 </script> 
