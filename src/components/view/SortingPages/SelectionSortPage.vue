@@ -1,7 +1,9 @@
 <template lang="">
-   <div>
-      
-   </div>
+   <section>
+      <div class="animation-container">
+
+      </div>
+   </section>
 </template>
 <script>
 export default {

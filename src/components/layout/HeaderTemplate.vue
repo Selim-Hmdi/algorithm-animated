@@ -9,7 +9,7 @@
         <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
           <span>Sorting algorithms</span> 
           <ul class="pure-menu-children">
-            <li class="pure-menu-item"><router-link class="pure-menu-link"  to="/">Selection sort</router-link></li>
+            <li class="pure-menu-item"><router-link class="pure-menu-link"  to="/sorting-algorithms/selection-sort">Selection sort</router-link></li>
             <li class="pure-menu-item"><router-link class="pure-menu-link" to="/">Bubble sort</router-link></li>
             <li class="pure-menu-item"><router-link class="pure-menu-link"  to="/">Quicksort</router-link></li>
           </ul>
